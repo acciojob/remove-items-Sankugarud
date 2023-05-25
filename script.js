@@ -1,5 +1,5 @@
 //your JS code here. If required.
-remove(){
+function remove(){
 	let selector = document.getElementById("colorSelect");
 	selector.remove(selector.selectedIndex);
 }
